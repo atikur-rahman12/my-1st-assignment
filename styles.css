@@ -234,3 +234,40 @@ nav .menu a{
   margin-bottom: 16px;
 }
 
+.button:hover{
+  background-color: darkgreen;
+}
+
+#footer{
+ background-color: #001931;
+ padding: 120px 120px 30px 120px;
+}
+
+#footer .footer-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-container .social{
+  max-width: 250px;
+}
+
+.social h5{
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.social .icon a{
+  margin-right: 20px;
+}
+
+.line{
+  margin-top: 110px;
+}
+.copy-right{
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  font-size: 18px;
+}
