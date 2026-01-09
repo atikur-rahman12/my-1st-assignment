@@ -158,3 +158,43 @@ nav .menu a{
   line-height: 20px;
   margin-bottom: 18px;
 }
+
+#second-brain{
+  max-width: 1360px;
+  margin: 125px;
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+
+#second-brain .second-brain-container{
+  max-width: 600px;
+}
+
+.second-brain-container h6{
+  color: #30B868;
+  line-height: 20px;
+  font-size: 17px;
+  margin-bottom: 18px;
+}
+
+.second-brain-container h2{
+  font-size: 48px;
+  margin-bottom: 18px;
+}
+
+.second-brain-container p{
+  color: #627382;
+  line-height: 24px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.second-brain-container ul{
+  list-style: none;
+}
+
+.second-brain-container li{
+  color: #001931;
+  line-height: 40px;
+}
