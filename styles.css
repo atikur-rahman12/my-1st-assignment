@@ -196,5 +196,41 @@ nav .menu a{
 
 .second-brain-container li{
   color: #001931;
-  line-height: 40px;
+  line-height: 35px;
 }
+
+#early-access{
+  background-color: #F7F6F2;
+  max-width: 1360px;
+  margin: 125px;
+  text-align: center;
+  padding: 70px;
+}
+
+#early-access .early-access-container{
+  max-width: 1150px;
+}
+
+.early-access-container h2{
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.early-access-container p{
+  color: #627382;
+  line-height: 25px;
+  margin-bottom: 18px;
+}
+
+.button{
+  background-color: #30B868;
+  padding: 15px 17px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
