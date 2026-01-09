@@ -55,7 +55,6 @@ nav .menu a{
 #banner{
   background-image: url(./assets/hero-bg.png);
   background-repeat: no-repeat;
-  min-height: 1000vh;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -105,4 +104,57 @@ nav .menu a{
 
 .a-btn:hover{
   color: goldenrod;
+}
+
+#notes .section-heading{
+  text-align: center;
+  padding: 38px;
+}
+
+#notes .section-heading h1{
+  font-size: 46px;
+  margin-bottom: 14px;
+}
+
+#notes .section-heading p{
+  color: #627382;
+  line-height: 20px;
+}
+
+#notes .notes-container{
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+#notes .notes-container .notes-box{
+  display: flex;
+  gap: 30px;
+}
+
+.notes-box .notes-card{
+  padding: 25px;
+  max-width: 330px;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.212);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.notes-card img{
+  background-color: red;
+  border-radius: 50%;
+  padding: 12px 13px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.notes-card h3{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.notes-card p{
+  color: #627382;
+  line-height: 20px;
+  margin-bottom: 18px;
 }
